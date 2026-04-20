@@ -1,6 +1,12 @@
-# py-CCA
+# pyccasc
+
+[![PyPI](https://img.shields.io/pypi/v/pyccasc.svg)](https://pypi.org/project/pyccasc/)
+[![Python](https://img.shields.io/pypi/pyversions/pyccasc.svg)](https://pypi.org/project/pyccasc/)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
 
 A **pure-Python re-implementation of Seurat's `RunCCA`** (Stuart, Butler, Hoffman, Hafemeister et al., *Cell* 2019) — canonical correlation analysis for single-cell integration. Drop-in for the scanpy / AnnData ecosystem.
+
+> The PyPI distribution is **`pyccasc`** (CCA for single-cell); the Python import name is **`cca_py`** (so `from cca_py import run_cca`). The GitHub repo lives at [`omicverse/py-cca`](https://github.com/omicverse/py-cca).
 
 - AnnData-native — feeds directly into Scanpy / OmicVerse pipelines
 - No `rpy2`, no R install, no Rcpp toolchain
@@ -11,7 +17,7 @@ A **pure-Python re-implementation of Seurat's `RunCCA`** (Stuart, Butler, Hoffma
 ## Install
 
 ```bash
-pip install py-CCA
+pip install pyccasc
 ```
 
 ## Quick-start
