@@ -1,0 +1,9 @@
+_rparity/
+_pbmc_pair/
+.pytest_cache/
+refs/
+*.egg-info/
+__pycache__/
+.ipynb_checkpoints/
+dist/
+build/
